@@ -11,6 +11,7 @@ $ cd anagram-cheater
 $ go run cmd/anagram-cheater --help
 $ go run cmd/anagram-cheater --letters abcdefg --length 3 --dictionary ./italian_dictionary.txt
 ````
+Binaries available [here](https://github.com/looCiprian/anagram-cheater/releases/tag/v1.0)
 
 # Dictionaries
 [Italian words](https://github.com/napolux/paroleitaliane/blob/master/paroleitaliane/60000_parole_italiane.txt)
