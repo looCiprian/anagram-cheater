@@ -30,9 +30,6 @@ func FindWords(wordlist []dictionary, anagram string, length int) []string {
 
 	anagramSorted := sortString(strings.ToLower(anagram))
 
-	i := 0
-	j := 0
-
 	var found []string
 
 	for k:=0; k < len(wordlist); k++ {
@@ -40,6 +37,8 @@ func FindWords(wordlist []dictionary, anagram string, length int) []string {
 		if len(wordlist[k].word) != length {
 			continue
 		}
+		i := 0
+		j := 0
 		tempWord := ""
 		for  {
 			if tempWord == wordlist[k].sortedWord{
@@ -67,10 +66,6 @@ func FindWords(wordlist []dictionary, anagram string, length int) []string {
 				continue
 			}
 		}
-		i = 0
-		j = 0
 	}
-
 	return found
-
 }
