@@ -8,8 +8,8 @@ Can be useful in some games :)
 ````
 $ git clone https://github.com/looCiprian/anagram-cheater.git
 $ cd anagram-cheater
-$ go run cmd/anagram-cheater --help
-$ go run cmd/anagram-cheater --letters abcdefg --length 3 --dictionary ./italian_dictionary.txt
+$ go run cmd/anagram-cheater.go --help
+$ go run cmd/anagram-cheater.go --letters abcdefg --length 3 --dictionary ./italian_dictionary.txt
 ````
 Binaries available [here](https://github.com/looCiprian/anagram-cheater/releases/tag/v1.0)
 
